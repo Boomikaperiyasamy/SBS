@@ -1,0 +1,33 @@
+body {
+  background-image: url("image copy 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.firstpage{
+    display: flex;
+}
+.content  {
+    text-align: justify;
+    color: aliceblue;
+   margin-top: 150px;
+   margin-left: 100px;
+   font-size: 15px;
+}
+
+.image {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+         .firstpage {
+            background: rgba(0, 0, 0, 0.542);
+            min-height: 100vh;
+        }

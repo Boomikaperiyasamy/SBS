@@ -1,0 +1,76 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-image: url("https://images.unsplash.com/photo-1498654896293-37aacf113fd9");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #f0e9e9;
+        }
+
+        /* Overlay */
+        .overlay {
+            background: rgba(0, 0, 0, 0.822);
+            min-height: 100vh;
+        }
+
+        
+
+        /* About Section */
+        .about {
+            padding: 40px ;
+        }
+
+        .about h2 {
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+
+        .about h3 {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-left: 4px solid #d4af37;
+            padding-left: 10px;
+        }
+
+        .about p {
+            font-size: 17px;
+          
+           
+            color: #ddd;
+        }
+
+        .about ul {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .about ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .about ul li:hover {
+            color: #d4af37;
+            transition: 0.3s;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #de1313;
+        }
+
+        
+

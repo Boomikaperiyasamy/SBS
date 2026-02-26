@@ -1,0 +1,113 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    background-image: url("image copy 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* LOGO */
+.logo h1 {
+    color: white;
+    font-size: 32px;
+}
+
+/* NAVIGATION */
+.box {
+    display: flex;
+    gap: 40px;
+}
+
+.box li {
+    list-style: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.link a:hover {
+    color: gold;
+}
+
+/* ===== HERO SECTION ===== */
+.demo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.demo h1 {
+    font-size: 60px;
+    color: beige;
+}
+
+.demo h2 {
+    margin: 20px 0;
+    color: white;
+}
+
+.demo button {
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.demo button:hover {
+    background-color: gold;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .demo {
+        margin-top: 120px;
+    }
+
+    .demo h1 {
+        font-size: 40px;
+    }
+}
