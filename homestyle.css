@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-image: url("image copy 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Navbar Styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.logo h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.box {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.link a:hover {
+    color: gold;
+}
+
+/* Main Content */
+.firstpage {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px 50px;
+    gap: 50px;
+}
+
+.content {
+    flex: 1;
+    text-align: justify;
+    color: aliceblue;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .firstpage {
+        flex-direction: column;
+        padding-top: 140px;
+        text-align: center;
+    }
+
+    .container {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .box {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content {
+        order: 2;
+    }
+
+    .image {
+        order: 1;
+    }
+}
